@@ -1,0 +1,196 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 14, 2016, 11:20:47 PM
+    Author     : Pasha
+*/
+
+/* body { padding-top: 58px; } */
+
+main{
+    padding-top: 10px;
+}
+
+.navbar-brand img{
+	max-height: 100px;
+       
+}
+
+.hamsa img{
+    padding-top: 30px;
+    padding-right: 40px;
+    max-height: 80px;
+    float: right;
+}
+
+h1{
+    font-size: 4em;
+    font-weight: 900;
+    padding-top: 5px;
+    
+}
+.navbar{
+    height: 55px;
+    background: rgba(255,255,255, 1);
+    border: none;
+}
+nav .nav-tabs{
+    padding-bottom:  5px;
+    
+}
+/* nav{
+	position: fixed;
+
+} */
+/* .container .row:first-child{
+	border: 1px solid rgba(0, 0, 0, .1);
+	border-radius: 15px;
+	
+ */
+.in{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+/* main{
+	padding-top: 100px; */
+h1,h2,h3,h4, p, p.inside, li a{
+    direction: rtl;
+}
+p.inside{
+	margin-top: 20px
+}
+.col-md-12.img{
+  
+}
+
+.form-horizontal{
+	padding-top: 30px
+        
+
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    padding: 60px 30px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+}
+
+.gallery img{
+    max-height: 200px;
+    border-radius: 25px;
+    padding: 0 10px;
+}
+
+footer i{
+    padding: 10px;
+    
+}
+footer img{
+	max-height: 200px;
+       
+}
+footer  {
+    height: 200px;
+}
+.table tbody>tr>td{
+    vertical-align: baseline;
+    color:black;
+}
+
+/* .strong{
+    font-weight: 600;
+} */
+
+@media screen and (min-width: 992px) {
+    .navbar-toggleable-md, .navbar, .navbar-header{
+       background: rgba(255,255,255, 1);
+       border: none;
+       max-height: 100px;
+    }
+
+    
+}    
+
+
+@media screen and (max-width: 992px) {
+    
+    .hamsa {display: none;}
+    .gallery {
+        display: flex;
+        justify-content: center;
+        padding: 1em 2em;
+    }
+    .gallery img{
+        max-height: 140px;
+        border-radius: 15%;
+    }
+    .form-horizontal{text-align: right;}    
+    .navbar{
+        height: auto;
+        border: none;
+    }
+    
+    strong{
+        font-weight: 100;
+    }
+
+    .navbar-fixed-top{
+        background: rgba(255,255,255, 1);
+        padding-top: 0px;
+    }
+    h1 {font-size: 4em;}
+
+    footer .col-md-12{display: flex;}
+   /*  img.footerlogo {display: none;} */
+    footer{padding-top: 10px;}
+}
+
+@media screen and (max-width: 768px) {
+     nav .nav-tabs{
+        padding-top: 0px;
+    
+    }
+    h1{
+        font-size: 2.7em;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    /* .nav-tabs.nav-justified{
+        padding-top: 30px;
+    } */
+    .gallery img{
+        max-height: 110px;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav .nav-tabs{
+        padding-top: 0px;
+    
+    }
+    /* img.footerlogo {display: none;} */
+    h1 {font-size: 2em;}
+    
+    ul .nav-tabs{
+    
+    
+    }
+    .navbar-brand img{max-height: 4em;}
+    .gallery img{
+        max-height: 100px;
+        border-radius: 50%;
+    }   
+    .form-horizontal{text-align: center;}
+    .xs-center{text-align: center;}
+    footer{padding-top: 10px;}
+    
+    
+}
+

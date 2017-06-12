@@ -1,0 +1,255 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/* 
+    Created on : Dec 14, 2016, 11:20:47 PM
+    Author     : Pasha
+*/
+
+
+/*body {
+    background-color: lightgray;
+}*/
+
+.navbar-brand img {
+    max-height: 80px;
+}
+
+#theCarousel {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 900;
+    padding-top: 5px;
+}
+
+.navbar {
+    height: 155px;
+    background: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+nav .nav-tabs {
+    padding-top: 5px;
+}
+
+.hamsa img {
+    padding-top: 2em;
+    padding-right: 40px;
+    max-height: 80px;
+    float: right;
+}
+
+
+/* nav{
+	position: fixed;
+
+} */
+
+
+/* .container .row:first-child{
+	border: 1px solid rgba(0, 0, 0, .1);
+	border-radius: 15px;
+	
+ */
+
+.inseide .btn {
+    box-shadow: 2px 6px;
+}
+
+main {
+    padding-top: 100px;
+}
+
+rtl,
+h1,
+h2,
+h3,
+h4,
+p,
+p.inside,
+li a {
+    direction: rtl;
+}
+
+p.inside {
+    margin-top: 20px;
+}
+
+.form-horizontal {
+    padding-top: 30px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 30px;
+}
+
+.gallery img {
+    max-height: 200px;
+    border-radius: 25px;
+}
+
+footer i {
+    padding: 10px;
+}
+
+footer img {
+    max-height: 200px;
+}
+
+footer {
+    height: 200px;
+}
+
+.table tbody>tr>td {
+    vertical-align: baseline;
+    color: black;
+}
+
+
+/* .strong{
+    font-weight: 600;
+} */
+
+@media screen and (min-width: 992px) {
+    .navbar-toggleable-md,
+    .navbar,
+    .navbar-header {
+        background: rgba(255, 255, 255, 1);
+        border: none;
+        max-height: 150px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .hamsa {
+        display: none;
+    }
+    body {
+        padding-top: 55px;
+    }
+    .gallery {
+        display: flex;
+        justify-content: space-around;
+        padding: 1em 2em;
+    }
+    .gallery img {
+        max-height: 140px;
+        border-radius: 15%;
+    }
+    .form-horizontal {
+        text-align: right;
+    }
+    .navbar {
+        height: auto;
+        border: none;
+    }
+    strong {
+        font-weight: 100;
+    }
+    .navbar-fixed-top {
+        background: rgba(255, 255, 255, 1);
+        padding-bottom: 10px;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    footer .col-md-12 {
+        display: flex;
+    }
+    /*  img.footerlogo {display: none;} */
+    footer {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    main {
+        padding-top: 3em;
+    }
+    nav .nav-tabs {
+        padding-top: 0px;
+    }
+    nav,
+    .navbar {
+        max-height: 30%;
+    }
+    .table {
+        font-size: 0.8em;
+        width: 90%;
+    }
+    h1 {
+        font-size: 2.5em;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    /* .nav-tabs.nav-justified{
+        padding-top: 30px;
+    } */
+    .gallery img {
+        max-width: 100px;
+        border-radius: 50%;
+    }
+    .margin {
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    main {
+        padding-top: 3em;
+    }
+    nav .nav-tabs {
+        padding-top: 0px;
+    }
+    nav,
+    .navbar {
+        max-height: 30%;
+    }
+    .table {
+        font-size: 0.8em;
+        width: 90%;
+    }
+    /* img.footerlogo {display: none;} */
+    h1 {
+        font-size: 2em;
+    }
+    ul .nav-tabs {
+        margin-top: 30px;
+    }
+    .margin {
+        margin: 5px;
+    }
+    .navbar-brand img {
+        max-height: 3em;
+    }
+    .gallery img {
+        max-width: 100px;
+        border-radius: 50%;
+    }
+    .form-horizontal {
+        text-align: center;
+    }
+    .xs-center {
+        text-align: center;
+    }
+    footer {
+        padding-top: 10px;
+    }
+}
